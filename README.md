@@ -1,4 +1,7 @@
-![enter image description here](https://github.com/EasySensors/BlindsActuatorNode/blob/master/photos/easyBlindsActuatorNode.png?raw=true)
+![enter image description here](https://github.com/EasySensors/easyActuator/blob/master/pcs/ACTUATOR_MAIN.jpg?raw=true)
+![enter image description here](https://github.com/EasySensors/easyActuator/blob/master/pcs/ACTUATOR_BOTTOM.jpg?raw=true)
+![enter image description here](https://github.com/EasySensors/easyActuator/blob/master/pcs/ACTUATOR_PCB_TOP.jpg.jpg?raw=true)
+![enter image description here](https://github.com/EasySensors/easyActuator/blob/master/pcs/ACTUATOR_PCB_TOP_LR.jpg?raw=true)
 
 
 ### The Blinds Actuator Node is actuator node for NEMA17 style steppers used in 3D printers. The board based on [The Button Size Node](https://github.com/EasySensors/ButtonSizeNode) with HopeRF RFM69-HCW radio on board and Pololu DRV8824/5 Stepper driver microcontroller (EBAN-DRV8824-5)
