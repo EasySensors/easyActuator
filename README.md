@@ -1,6 +1,6 @@
 ![enter image description here](https://github.com/EasySensors/easyActuator/blob/master/pcs/ACTUATOR_MAIN.jpg?raw=true)
 ![enter image description here](https://github.com/EasySensors/easyActuator/blob/master/pcs/ACTUATOR_BOTTOM.jpg?raw=true)
-![enter image description here](https://github.com/EasySensors/easyActuator/blob/master/pcs/ACTUATOR_PCB_TOP.jpg.jpg?raw=true)
+![enter image description here](https://github.com/EasySensors/easyActuator/blob/master/pcs/ACTUATOR_PCB_TOP.jpg?raw=true)
 ![enter image description here](https://github.com/EasySensors/easyActuator/blob/master/pcs/ACTUATOR_PCB_TOP_LR.jpg?raw=true)
 
 ### The easyActuator is based on TMC2208 silent stepper driver. It can control stepper motor and is capable of driving up to 2A of current from each output. The board controlled with with Lora RFM95 or RFM69-HCW radio 
