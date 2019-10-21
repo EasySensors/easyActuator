@@ -7,8 +7,8 @@
 
 [![Blinds Actuator Driver ](https://github.com/EasySensors/BlindsActuatorNode/blob/master/photos/youTube.jpg?raw=true)](https://youtu.be/Nq-V5lzM5DM)
 
-EasyblindsActuatorNodeTMC2208AccelStepper.ino  is the Arduino example sketch using [MySensors 2.x ](https://www.mysensors.org/) API.  
-Libs used. The Sketch basically is the code for controlong blinds. It memrizes 2 postions and can be controlled with buttons or by controller like Domoticz.
+EasyblindsActuatorNodeTMC2208AccelStepper.ino  is the Arduino example sketch using [MySensors 2.x ](https://www.mysensors.org/) API.
+The Sketch basically is the code for controlong blinds. It memrizes 2 postions and can be controlled with buttons or with smarthone by controller like Domoticz.
 
 AccelStepper credit to airspayce http://www.airspayce.com/mikem/arduino/AccelStepper/classAccelStepper.html#a5dce13ab2a1b02b8f443318886bf6fc5 
  
