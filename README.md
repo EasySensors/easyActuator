@@ -1,11 +1,22 @@
-![enter image description here](https://github.com/EasySensors/easyActuator/blob/master/pcs/ACTUATOR_MAIN.jpg?raw=true)
-![enter image description here](https://github.com/EasySensors/easyActuator/blob/master/pcs/ACTUATOR_BOTTOM.jpg?raw=true)
-![enter image description here](https://github.com/EasySensors/easyActuator/blob/master/pcs/ACTUATOR_PCB_TOP.jpg?raw=true)
-![enter image description here](https://github.com/EasySensors/easyActuator/blob/master/pcs/ACTUATOR_PCB_TOP_LR.jpg?raw=true)
+![easyActuator Blinds Actuator Driver](https://github.com/EasySensors/easyActuator/blob/master/pcs/ACTUATOR_MAIN.jpg?raw=true)
+![easyActuator Blinds Actuator Driver](https://github.com/EasySensors/easyActuator/blob/master/pcs/ACTUATOR_BOTTOM.jpg?raw=true)
+![easyActuator Blinds Actuator Driver](https://github.com/EasySensors/easyActuator/blob/master/pcs/ACTUATOR_PCB_TOP.jpg?raw=true)
+![easyActuator Blinds Actuator Driver](https://github.com/EasySensors/easyActuator/blob/master/pcs/ACTUATOR_PCB_TOP_LR.jpg?raw=true)
 
 ### The easyActuator is based on TMC2208 silent stepper driver. It can control stepper motor and is capable of driving up to 2A of current from each output. The board controlled with with Lora RFM95 or RFM69-HCW radio 
 
-[![Blinds Actuator Driver ](https://github.com/EasySensors/BlindsActuatorNode/blob/master/photos/youTube.jpg?raw=true)](https://youtu.be/Nq-V5lzM5DM)
+Assembly video
+[![easyActuator Blinds Actuator Driver ](https://github.com/EasySensors/easyActuator/blob/master/pcs/easyBlindsActuatorAsembly.jpg?raw=true)](https://youtu.be/Id8HyUyZ3ow)
+
+Travel with built in buttons
+[![easyActuator Blinds Actuator Driver ](https://github.com/EasySensors/easyActuator/blob/master/pcs/easyBlindsActuatorTrvelButtons.jpg?raw=true)](https://youtu.be/X3RquymTpSM)
+
+Travel setup with built in buttons
+[![easyActuator Blinds Actuator Driver ](https://github.com/EasySensors/easyActuator/blob/master/pcs/easyBlindsActuatorTrvelSetup.jpg?raw=true)](https://youtu.be/LuTreJsuO8g)
+
+![easyActuator Blinds Actuator Driver](https://github.com/EasySensors/easyActuator/blob/master/pcs/easyBlindsActuatorButtons.jpg?raw=true)
+
+![easyActuator Blinds Actuator Driver](https://github.com/EasySensors/easyActuator/blob/master/pcs/easyBlindsActuatorLED.jpg?raw=true)
 
 EasyblindsActuatorNodeTMC2208AccelStepper.ino  is the Arduino example sketch using [MySensors 2.x ](https://www.mysensors.org/) API.
 The Sketch basically is the code for controlong blinds. It memrizes 2 postions and can be controlled with buttons or with smarthone by controller like Domoticz.
@@ -31,6 +42,7 @@ Comes with some useful stuff like STL files for printing belt and pulley holders
  - Authentication security - Atmel ATSHA204A Crypto Authentication Chip
  - Dualoptiboot bootloader. Implements over the air (OTA) firmware update ability
  - The Digital and Analog pins are 3.3 volts
+ - Enclosure with travel and setup buttons
 
 ------------------------------------------------------
 
