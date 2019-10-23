@@ -34,7 +34,7 @@ Comes with some useful stuff like STL files for printing belt and pulley holders
 
  - LoRa RFM 95 or RFM69 HCW 915/868/433 MHz radios
  - Dimensions 96mm x 61mm x 30mm
- - Supply voltage up to 9-25 Volts 3A with 5.5mm x 2.5mm Male Jack
+ - Power supply voltage up to 9-25 Volts 3A with 5.5mm x 2.5mm Male Jack
  - FTDI  header for programming
  - Any NEMA17 4-wire motor
  - TMS2208 silent motor driver up to 2A motor current  
@@ -46,14 +46,18 @@ Comes with some useful stuff like STL files for printing belt and pulley holders
 
 ------------------------------------------------------
 
+## Ikea Vidga rail kit
+![easyActuator Blinds Actuator Driver](https://github.com/EasySensors/easyActuator/blob/master/pcs/easyBlindsActuatorIkeaVidga.jpg?raw=true)
 
-![enter image description here](https://github.com/EasySensors/BlindsActuatorNode/blob/master/photos/setMotor.JPG?raw=true)
 
-![enter image description here](https://github.com/EasySensors/BlindsActuatorNode/blob/master/photos/set1.JPG?raw=true)
+## Gardinia rail kit
 
-![enter image description here](https://github.com/EasySensors/BlindsActuatorNode/blob/master/photos/setPulley.JPG?raw=true)
+![easyActuator Blinds Actuator Driver](https://github.com/EasySensors/easyActuator/blob/master/pcs/Gardinia-rail-kit.jpg?raw=true)
 
-[**The board schematics Pdf link**](https://github.com/EasySensors/BlindsActuatorNode/blob/master/KiCad/blindsActuator.pdf)
+### Gardinia motor holder
+![easyActuator Blinds Actuator Driver](https://github.com/EasySensors/easyActuator/blob/master/pcs/setMotor.jpg?raw=true)
+
+
 
 
 
