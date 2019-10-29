@@ -25,18 +25,22 @@
 
 - A3  Connected to ATSHA204A - Crypto Authentication chip 
 - D2  RFM95\69 DIO0 
-- D9  RFM95\69 Reset pin 
+- A2  RFM95\69 Reset pin 
 - D10 RFM95\69 CS/NSS
 - D11 MOSI
 - D12 MISO
 - D13 SCK
 - D4 LEDpin
-- D9 RFM95\69 reset
+- D9 // TMC2208 DIAG
 - D6 DIR
 - D7 STEP
 - D5 ENBL
+- A5 SW_RX  // TMC2208  SoftwareSerial receive pin 
+- A4 SW_TX  // TMC2208  SoftwareSerial transmit pin
+
 - D3 arrow button - "close"
 - A0 arrow button - "open"
+- A1 button between arrow buttons "calibration"
 
 ![easyActuator Blinds Actuator Driver](https://github.com/EasySensors/easyActuator/blob/master/pcs/easyBlindsActuatorButtons.jpg?raw=true)
 ![easyActuator Blinds Actuator Driver](https://github.com/EasySensors/easyActuator/blob/master/pcs/easyBlindsActuatorLED.jpg?raw=true)
