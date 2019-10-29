@@ -3,32 +3,9 @@
 ![easyActuator Blinds Actuator Driver](https://github.com/EasySensors/easyActuator/blob/master/pcs/ACTUATOR_PCB_TOP.jpg?raw=true)
 ![easyActuator Blinds Actuator Driver](https://github.com/EasySensors/easyActuator/blob/master/pcs/ACTUATOR_PCB_TOP_LR.jpg?raw=true)
 
+## sold  here 
+
 ### The easyActuator is based on TMC2208 silent stepper driver. It can control stepper motor and is capable of driving up to 2A of current from each output. The board controlled with with Lora RFM95 or RFM69-HCW radio 
-
-Assembly video
-[![easyActuator Blinds Actuator Driver ](https://github.com/EasySensors/easyActuator/blob/master/pcs/easyBlindsActuatorAsembly.jpg?raw=true)](https://youtu.be/Id8HyUyZ3ow)
-
-Travel with built in buttons
-[![easyActuator Blinds Actuator Driver ](https://github.com/EasySensors/easyActuator/blob/master/pcs/easyBlindsActuatorTrvelButtons.jpg?raw=true)](https://youtu.be/X3RquymTpSM)
-
-Travel setup with built in buttons
-[![easyActuator Blinds Actuator Driver ](https://github.com/EasySensors/easyActuator/blob/master/pcs/easyBlindsActuatorTrvelSetup.jpg?raw=true)](https://youtu.be/LuTreJsuO8g)
-
-![easyActuator Blinds Actuator Driver](https://github.com/EasySensors/easyActuator/blob/master/pcs/easyBlindsActuatorButtons.jpg?raw=true)
-
-![easyActuator Blinds Actuator Driver](https://github.com/EasySensors/easyActuator/blob/master/pcs/easyBlindsActuatorLED.jpg?raw=true)
-
-EasyblindsActuatorNodeTMC2208AccelStepper.ino  is the Arduino example sketch using [MySensors 2.x ](https://www.mysensors.org/) API.
-The Sketch basically is the code for controlong blinds. It memrizes 2 postions and can be controlled with buttons or with smarthone by controller like Domoticz.
-
-AccelStepper credit to airspayce http://www.airspayce.com/mikem/arduino/AccelStepper/classAccelStepper.html#a5dce13ab2a1b02b8f443318886bf6fc5 
- 
-TMCStepper credit to Teemu Mäntykallio 
-https://github.com/teemuatlut/TMCStepper
-  
-Comes with some useful stuff like STL files for printing belt and pulley holders. Can be used for driving ikea vidga track rails and gardina rails. works nice and quiet.
-
-  ------------------------------------------------------------------------
 
 ## Specification: ##
 
@@ -44,20 +21,29 @@ Comes with some useful stuff like STL files for printing belt and pulley holders
  - The Digital and Analog pins are 3.3 volts
  - Enclosure with travel and setup buttons
 
-------------------------------------------------------
+## pinout
 
-## Ikea Vidga rail kit
-![easyActuator Blinds Actuator Driver](https://github.com/EasySensors/easyActuator/blob/master/pcs/easyBlindsActuatorIkeaVidga.jpg?raw=true)
+- A3  Connected to ATSHA204A - Crypto Authentication chip 
+- D2  RFM95\69 DIO0 
+- D9  RFM95\69 Reset pin 
+- D10 RFM95\69 CS/NSS
+- D11 MOSI
+- D12 MISO
+- D13 SCK
+- D4 LEDpin
+- D9 RFM95\69 reset
+- D6 DIR
+- D7 STEP
+- D5 ENBL
+- D3 arrow button - "close"
+- A0 arrow button - "open"
 
+![easyActuator Blinds Actuator Driver](https://github.com/EasySensors/easyActuator/blob/master/pcs/easyBlindsActuatorButtons.jpg?raw=true)
+![easyActuator Blinds Actuator Driver](https://github.com/EasySensors/easyActuator/blob/master/pcs/easyBlindsActuatorLED.jpg?raw=true)
 
-## Gardinia rail kit
+Libraries used:
 
-![easyActuator Blinds Actuator Driver](https://github.com/EasySensors/easyActuator/blob/master/pcs/Gardinia-rail-kit.jpg?raw=true)
-
-### Gardinia motor holder
-![easyActuator Blinds Actuator Driver](https://github.com/EasySensors/easyActuator/blob/master/pcs/setMotor.jpg?raw=true)
-
-
-
-
-
+AccelStepper credit to airspayce http://www.airspayce.com/mikem/arduino/AccelStepper/classAccelStepper.html#a5dce13ab2a1b02b8f443318886bf6fc5 
+ 
+TMCStepper credit to Teemu Mäntykallio 
+https://github.com/teemuatlut/TMCStepper
