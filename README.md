@@ -38,9 +38,9 @@
 - A5 SW_RX  // TMC2208  SoftwareSerial receive pin 
 - A4 SW_TX  // TMC2208  SoftwareSerial transmit pin
 
-- D3 arrow button - "close"
-- A0 arrow button - "open"
-- A1 button between arrow buttons "calibration"
+- D3 travel button - "closePressed" in the code
+- A0 travel button - "openPressed" in the code
+- A1 travel setup button "calibrationPressed" in the code
 
 ![easyActuator Blinds Actuator Driver](https://github.com/EasySensors/easyActuator/blob/master/pcs/easyBlindsActuatorButtons.jpg?raw=true)
 ![easyActuator Blinds Actuator Driver](https://github.com/EasySensors/easyActuator/blob/master/pcs/easyBlindsActuatorLED.jpg?raw=true)
